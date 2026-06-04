@@ -27,8 +27,7 @@
 - ping 172.16.0.1 延迟：0.018ms ~ 0.485ms，0% 丢包
 ## 信令时序图
 
-![LTE注册信令时序图](./LTE UE 注册信令时序（基于实测抓包）.png)
-
+![LTE注册信令时序图](./lte_attach_signaling.svg)
 ## 抓包文件
 
 原始抓包文件见 5g_capture.pcap，可用 Wireshark 打开查看完整信令。
