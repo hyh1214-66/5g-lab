@@ -35,3 +35,10 @@
 
 - [srsRAN_4G](https://github.com/srsran/srsRAN_4G)
 - [Open5GS](https://github.com/open5gs/open5gs)
+- ## 核心成果
+
+- ✅ UE 成功注册进 LTE 网络，获取 IP 172.16.0.2
+- ✅ ping 延迟 0.018ms，丢包率 0%
+- ✅ Wireshark 抓包完整记录注册信令（10条 S1AP/NAS 消息）
+- ✅ 实现 Proportional Fair 调度器，替换默认 Round-Robin
+- ✅ PF 调度器编译验证通过（srsRAN 源码改动）
